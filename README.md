@@ -19,4 +19,7 @@ to the redis server. A port if mapped from the node container to a port on machi
 A sample project which hosts a simple react app inside a docker container. Used references for tracking changes made to the
 src directory. The `commands.txt` contains the exact docker commands to run and `docker-compose.yml` file contains how we
 simplify the complete process of remembering those heavy commands ;).
-
+There are two separate docker files for both dev and prod each customised for it's purpose.
+Implemented multi-step builds for prod setup and using nginx to host things.
+`Dockerfile.dev` and `docker-compose.yml` for `dev` and `Dockerfile` for `prod`.
+Didn't create the `docker-compose` for prod since it was solely for exploring multi-step container builds, docker commands were simple ;)
