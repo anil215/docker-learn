@@ -15,3 +15,8 @@ A sample project which uses 2 containers , one to host my custom node app and th
 docker-compose for it. The count is stored in redis and displayed to the client using the node app which communicates
 to the redis server. A port if mapped from the node container to a port on machine so that the browser can access it.
 
+## frontend
+A sample project which hosts a simple react app inside a docker container. Used references for tracking changes made to the
+src directory. The `commands.txt` contains the exact docker commands to run and `docker-compose.yml` file contains how we
+simplify the complete process of remembering those heavy commands ;).
+
