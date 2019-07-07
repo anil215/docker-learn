@@ -1,7 +1,7 @@
 # docker-learn
 Short repo to explore devops 
 
-## Brief description of the folders
+## Brief description of the projects
 
 ## sample-start
 Building an image from Dockerfile. Main motive was to get accustomed to using docker commands.
